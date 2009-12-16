@@ -13,7 +13,8 @@
 BOOST_PYTHON_MODULE(_jflib)  {
 	boost::python::scope().attr("__version__") = "0.10";
 #	else
-BOOST_PYTHON_MODULE(_jflib_debug)  {
+//BOOST_PYTHON_MODULE(_jflib_debug)  {
+BOOST_PYTHON_MODULE(_jflib)  {
     boost::python::scope().attr("__version__") = "0.10 Debug";
 #	endif
 
